@@ -3,6 +3,7 @@ body {
   padding: 0;
 }
 
+/* Nav styling */
 nav {
   background-color: #fc95cd;
 }
@@ -10,11 +11,6 @@ nav {
 nav img {
   width: 30%;
   margin-left: 10%;
-}
-
-iframe {
-  border: 3px solid green;
-  width: 100%;
 }
 
 .btn-outline-success {
@@ -26,14 +22,25 @@ iframe {
   background-color: #95ccee;
 }
 
+/*end of Nav Styling */
+/* Topic Menu */
 .topics {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin: .5em;
 }
 
+.topics div {
+  background-color: #eea058;
+  color: #d9d9d9;
+  padding: .5em;
+  border-radius: 10px;
+}
+
+/* Main container */
 .grid-container {
   display: -ms-grid;
   display: grid;
@@ -61,12 +68,42 @@ iframe {
   background-image: url(./assets/black-joy.jpg);
   background-size: cover;
   background-position: center;
+  border-radius: 10px;
 }
 
 .merge-containers {
-  border: 1px solid aqua;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.merge-containers .blog {
+  width: 25vw;
+}
+
+iframe, .merge-containers .blog-photo {
+  width: 100%;
+  height: 15rem;
+  border-radius: 10px;
+  margin-bottom: 2%;
+}
+
+.second .blog-photo {
+  background-image: url(./assets/snowboarder.jpg);
+  background-position: center 25%;
+  background-size: cover;
+}
+
+.third .blog-photo {
+  background-image: url(./assets/scandinavian-biolabs-ooh5gpuIAVk-unsplash.jpg);
+  background-position: center 25%;
+  background-size: cover;
+}
+
+.blog-text {
+  padding: .5em;
 }
 /*# sourceMappingURL=main.css.map */
