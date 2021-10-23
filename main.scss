@@ -6,13 +6,68 @@ body {
 /* Nav styling */
 
 nav {
-    background-color: #fc95cd;
+    background-color: #e471b0;
+    margin-bottom: .5em;
+    padding-right: 1%;
+    padding-left: 2%;
 }
 
-nav img {
-    width:30%;
-    margin-left: 10%;
+form {
+    width: 40vw;
 }
+
+.navbar-brand img{
+    width:30%;
+    
+}
+
+.wrapper {
+    display: flex;
+
+    width: 10vw;
+    justify-content: space-between;
+}
+
+.icon-1, .icon-2, .icon-3  {
+    width: 35px;
+    height: 35px;
+}
+
+.hover-background {
+    width:65px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    border-radius: 5px;
+}
+
+.hover-background:hover{
+    
+    background-color: #95ccee;
+}
+
+
+.icon-1 {
+    background-image: url(./assets/clear-home-two.png);
+    background-size: cover;
+    background-position: center; 
+    
+}
+
+.icon-2 {
+    background-image: url(./assets/clear-mail-two.png);
+    background-size: cover; 
+    background-position: center;
+}
+
+.icon-3 {
+    background-image: url(./assets/clear-notification.png);
+    background-size: cover; 
+    background-position: center;
+}
+
 
 
 .btn-outline-success {
@@ -35,10 +90,20 @@ nav img {
 }
 
 .topics div {
-    background-color: #eea058;
-    color: #d9d9d9;
-    padding: .5em;
-    border-radius: 10px;
+    color: #eea058;
+    font-weight: 500;
+    width: 5vw;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.topics div:hover {
+    background-color: #95ccee;
+    color: whitesmoke;
+}
+
+a:link {
+    text-decoration: none;
 }
 
 /* Main container */
@@ -50,11 +115,19 @@ nav img {
 
 .sidebar {
     grid-area: 1/2/4/3;
-    border: 1px solid aqua;
+    padding: 10%;
+}
+
+.advice .blog-photo {
+    background-image: url(./assets/aunties.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .banner {
     width:100%;
+    margin-top: .5em;
 }
 
 .banner .blog-photo {
@@ -76,7 +149,7 @@ nav img {
     width: 25vw;
 }
 
-iframe, .merge-containers .blog-photo {
+iframe, .merge-containers .blog-photo, .advice .blog-photo {
     width: 100%;
     height: 15rem;
     border-radius: 10px;
