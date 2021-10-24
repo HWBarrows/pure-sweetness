@@ -27,3 +27,8 @@ Photo by <a href="https://unsplash.com/@karsten116?utm_source=unsplash&utm_mediu
   <a href="https://iconscout.com/icons/notification" target="_blank">Notification Icon</a> on <a href="https://iconscout.com">Iconscout</a>
 
   <a href="https://iconscout.com/icons/home" target="_blank">Home Icon</a> by <a href="https://iconscout.com/contributors/yoyonpujiono">Iconion</a> on <a href="https://iconscout.com">Iconscout</a>
+
+  Photo by <a href="https://unsplash.com/@liz_weddon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Liz Weddon</a> on <a href="https://unsplash.com/collections/3146501/smiling?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Photo by <a href="https://unsplash.com/@laurazarateln?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Laura D Vargas</a> on <a href="https://unsplash.com/s/photos/friends-laughing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    
