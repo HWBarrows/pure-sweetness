@@ -184,12 +184,16 @@ a:link {
 }
 
 .merge-containers {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (auto)[1];
+  -ms-grid-columns: (auto)[3];
+      grid-template: repeat(1, auto)/repeat(3, auto);
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  /*display: flex;
+    justify-content: space-between;*/
 }
 
 .merge-containers .blog {
@@ -220,29 +224,5 @@ iframe,
 
 .blog-text {
   padding: .5em;
-}
-
-/* styling for about-me*/
-.hallie-container {
-  width: 100%;
-  height: 100vh;
-  background: #94205f;
-  background: linear-gradient(257deg, #94205f 0%, #fc95cd 100%);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-}
-
-.hallie {
-  background-color: #CFCFCF;
-  width: 550px;
-  height: 90vh;
-  background-image: url(./assets/GlobeMe.JPG.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: left;
 }
 /*# sourceMappingURL=main.css.map */
