@@ -3,8 +3,12 @@ body {
     padding: 0;
 }
 
+$accent-color: #95ccee;
+
+$primary-color: #e471b0;
+
 h1:hover , h2:hover , h3:hover {
-    color:#95ccee;
+    color:$accent-color;
 }
 
 a:link {
@@ -13,20 +17,22 @@ a:link {
 }
 
 a:visited {
-    color: #95ccee;;
+    color: $accent-color;
 }
 
 .navbar-toggler {
     border: 3px solid lightgray;
+
+    &:active         {
+        border: 3px solid lightgray;
+    }
 }
 
-.navbar-toggler:active {
-    border: 3px solid lightgray;
-}
+
 /* Nav styling */
 
 nav {
-    background-color: #e471b0;
+    background-color: $primary-color;
     margin-bottom: .5em;
     padding-right: 1%;
     padding-left: 2%;
@@ -44,7 +50,7 @@ form {
 .wrapper {
     display: flex;
     width: 20vw;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .icon-1,
@@ -54,6 +60,8 @@ form {
 {
     width: 30px;
     height: 30px;
+    background-size: cover;
+    background-position: center;
 }
 
 .hover-background {
@@ -64,37 +72,30 @@ form {
     align-items: center;
     margin: 2%;
     border-radius: 5px;
+
+    &:hover         {
+        background-color: $accent-color;
+    }
 }
 
-.hover-background:hover {
 
-    background-color: #95ccee;
-}
 
 .avatar {
     background-image: url(./assets/GlobeMe.JPG.png);
-    background-size: cover;
-    background-repeat: no-repeat;
     border-radius: 50%;
 }
 
 .icon-1 {
     background-image: url(./assets/clear-home-two.png);
-    background-size: cover;
-    background-position: center;
 
 }
 
 .icon-2 {
     background-image: url(./assets/clear-mail-two.png);
-    background-size: cover;
-    background-position: center;
 }
 
 .icon-3 {
     background-image: url(./assets/clear-notification.png);
-    background-size: cover;
-    background-position: center;
 }
 
 
@@ -102,11 +103,12 @@ form {
 .btn-outline-success {
     border: none;
     color: lightgrey;
+
+    &:hover             {
+        background-color: $accent-color;
+    }
 }
 
-.btn-outline-success:hover {
-    background-color: #95ccee;
-}
 
 /*end of Nav Styling */
 
@@ -116,22 +118,22 @@ form {
     display: flex;
     justify-content: space-around;
     margin-top: .8em;
-    
-    
+
+     div {
+        color: #eea058;
+        font-weight: 500;
+        width: 75px;
+        text-align: center;
+        border-radius: 5px;
+
+        &:hover  {
+            background-color: $accent-color;
+            color: whitesmoke;
+        }
+     }
 }
 
-.topics div {
-    color: #eea058;
-    font-weight: 500;
-    width: 75px;
-    text-align: center;
-    border-radius: 5px;
-}
 
-.topics div:hover {
-    background-color: #95ccee;
-    color: whitesmoke;
-}
 
 
 
@@ -159,22 +161,20 @@ form {
     width:100%;
     height: 13rem;
     border-radius: 10px;
-    
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .eye-bleach .sidebar-photo {
     background-image: url(./assets/quokka1.png);
-    background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    
     
 }
 
 .advice .sidebar-photo{
     background-image: url(./assets/aunties.png);
-    background-position: center;
     background-size: contain;
-    background-repeat: no-repeat;
 }
 
 
@@ -182,15 +182,15 @@ form {
     width: 100%;
     margin-top: .5em;
     
-}
 
-.banner .blog-photo {
-    width: 100%;
-    height: 60vh;
-    background-image: url(./assets/pink-smiles.jpg);
-    background-size: cover;
-    background-position: center 15%;
-    border-radius: 10px;
+    .blog-photo {
+        width: 100%;
+        height: 60vh;
+        background-image: url(./assets/pink-smiles.jpg);
+        background-size: cover;
+        background-position: center 15%;
+        border-radius: 10px;
+        }
 
 }
 
@@ -240,17 +240,17 @@ footer {
     justify-content: center;
     align-items: center;
     
+     div {
+        color: lightgray;
+        font-size: 2rem;
+        margin:1em;
+
+        &:hover {
+            color: $accent-color;
+        }
+     }
 }
 
-footer div {
-    color: lightgray;
-    font-size: 2rem;
-    margin:1em;
-}
-
-footer div:hover {
-    color: #95ccee;
-}
 
 
 @media only screen and (max-width: 700px) {
