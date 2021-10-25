@@ -39,17 +39,17 @@ nav {
 }
 
 form {
-    width: 40vw;
+    width: 35vw;
 }
 
 .navbar-brand img {
-    width: 30%;
+    width: 25%;
 
 }
 
 .wrapper {
     display: flex;
-    width: 20vw;
+    width: 10vw;
     justify-content: center;
 }
 
@@ -206,9 +206,7 @@ form {
 }
 
 iframe,
-.merge-containers .blog-photo,
-.advice .blog-photo , 
-.about-me .blog-photo
+.merge-containers .blog-photo
 {
     width: 100%;
     height: 15rem;
