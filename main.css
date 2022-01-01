@@ -56,6 +56,8 @@ form {
 .avatar {
   width: 30px;
   height: 30px;
+  background-size: cover;
+  background-position: center;
 }
 
 .hover-background {
@@ -80,27 +82,19 @@ form {
 
 .avatar {
   background-image: url(./assets/GlobeMe.JPG.png);
-  background-size: cover;
-  background-repeat: no-repeat;
   border-radius: 50%;
 }
 
 .icon-1 {
   background-image: url(./assets/clear-home-two.png);
-  background-size: cover;
-  background-position: center;
 }
 
 .icon-2 {
   background-image: url(./assets/clear-mail-two.png);
-  background-size: cover;
-  background-position: center;
 }
 
 .icon-3 {
   background-image: url(./assets/clear-notification.png);
-  background-size: cover;
-  background-position: center;
 }
 
 .btn-outline-success {
