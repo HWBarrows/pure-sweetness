@@ -1,6 +1,7 @@
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 1em;
+  max-width: 1800px;
 }
 
 h1:hover, h2:hover, h3:hover {
